@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-shouye-icon">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="shouye-icon" clip-path="url(#clip-shouye-icon)">
+    <g id="组_4862" data-name="组 4862" transform="translate(-59 -525)">
+      <rect id="矩形_4" data-name="矩形 4" width="30" height="30" transform="translate(59 525)" fill="#ffa5a5" opacity="0"/>
+      <g id="组_4854" data-name="组 4854" transform="translate(-513.212 -102.723)">
+        <g id="组_4853" data-name="组 4853" transform="translate(573.345 630.002)">
+          <path id="路径_1846" data-name="路径 1846" d="M600.849,639.491,587.867,630.2a1.043,1.043,0,0,0-1.232,0l-13.062,9.288a.53.53,0,0,0,.322.964h2.623v14.454a.536.536,0,0,0,.535.535h6.423a.536.536,0,0,0,.535-.535v-8.029h6.425v8.029a.536.536,0,0,0,.535.535H597.4a.536.536,0,0,0,.535-.535V640.455h2.623a.529.529,0,0,0,.3-.964Zm0,0" transform="translate(-573.345 -630.002)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

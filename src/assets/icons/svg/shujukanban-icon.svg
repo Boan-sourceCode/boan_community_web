@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="58" viewBox="0 0 58 58">
+  <defs>
+    <clipPath id="clip-shujukanban-icon">
+      <rect width="58" height="58"/>
+    </clipPath>
+  </defs>
+  <g id="shujukanban-icon" clip-path="url(#clip-shujukanban-icon)">
+    <g id="组_4872" data-name="组 4872" transform="translate(-1269.069 -296.069)">
+      <rect id="矩形_1341" data-name="矩形 1341" width="58" height="58" transform="translate(1269.069 296.069)" fill="#ffb7b7" opacity="0"/>
+      <g id="组_4828" data-name="组 4828" transform="translate(1271.666 298.666)">
+        <g id="组_4827" data-name="组 4827" transform="translate(0)">
+          <path id="路径_1840" data-name="路径 1840" d="M491.16,540.126H445.969a1.407,1.407,0,0,0-1.407,1.407v1.986a1.409,1.409,0,0,0,1.407,1.407H491.16a1.409,1.409,0,0,0,1.407-1.407v-1.986a1.407,1.407,0,0,0-1.407-1.407Zm.205-48.006h-45.6a3.6,3.6,0,0,0-3.6,3.6v36a3.6,3.6,0,0,0,3.6,3.6h45.6a3.605,3.605,0,0,0,3.6-3.6v-36a3.6,3.6,0,0,0-3.6-3.6Zm-34.8,33.6a2.4,2.4,0,1,1-4.8,0v-9.6a2.4,2.4,0,1,1,4.8,0Zm9.6,0a2.4,2.4,0,1,1-4.8,0v-24a2.4,2.4,0,0,1,4.8,0Zm9.6,0a2.4,2.4,0,1,1-4.8,0v-4.8a2.4,2.4,0,1,1,4.8,0Zm9.6,0a2.4,2.4,0,1,1-4.8,0v-19.2a2.4,2.4,0,0,1,4.8,0Zm0,0" transform="translate(-442.163 -492.12)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

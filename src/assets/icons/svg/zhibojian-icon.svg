@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="58" viewBox="0 0 58 58">
+  <defs>
+    <clipPath id="clip-zhibojian-icon">
+      <rect width="58" height="58"/>
+    </clipPath>
+  </defs>
+  <g id="zhibojian-icon" clip-path="url(#clip-zhibojian-icon)">
+    <g id="组_4877" data-name="组 4877" transform="translate(-1269.069 -296.069)">
+      <rect id="矩形_1341" data-name="矩形 1341" width="58" height="58" transform="translate(1269.069 296.069)" fill="#ffb7b7" opacity="0"/>
+      <g id="组_4843" data-name="组 4843" transform="translate(856.971 -259.991)">
+        <g id="组_4842" data-name="组 4842" transform="translate(412.098 562.752)">
+          <path id="路径_1845" data-name="路径 1845" d="M468.07,569.369a1.933,1.933,0,0,1,2.028,1.893v27.6a1.809,1.809,0,0,1-.959,1.607,2.542,2.542,0,0,1-2.029.1l-9.61-3.971v7.088a3.948,3.948,0,0,1-4.164,3.687H416.26a3.956,3.956,0,0,1-4.162-3.687V566.44a3.952,3.952,0,0,1,4.164-3.687h37.181a3.954,3.954,0,0,1,4.164,3.688v7.088l9.61-3.971a2.272,2.272,0,0,1,.854-.19Zm-25.7,16.492a2.23,2.23,0,0,0,0-3.828l-11.278-6.76a2.232,2.232,0,0,0-3.379,1.91v13.524a2.23,2.23,0,0,0,3.379,1.91l11.275-6.758Zm0,0" transform="translate(-412.098 -562.752)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

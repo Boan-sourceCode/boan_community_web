@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="58" viewBox="0 0 58 58">
+  <defs>
+    <clipPath id="clip-sanhuiyike-icon">
+      <rect width="58" height="58"/>
+    </clipPath>
+  </defs>
+  <g id="sanhuiyike-icon" clip-path="url(#clip-sanhuiyike-icon)">
+    <g id="组_4874" data-name="组 4874" transform="translate(-1269.069 -296.069)">
+      <rect id="矩形_1341" data-name="矩形 1341" width="58" height="58" transform="translate(1269.069 296.069)" fill="#ffb7b7" opacity="0"/>
+      <g id="组_4840" data-name="组 4840" transform="translate(892.795 -264.511)">
+        <g id="组_4839" data-name="组 4839" transform="translate(379.9 560.58)">
+          <path id="路径_1843" data-name="路径 1843" d="M430.649,612.067v6.514h-43.5a7.262,7.262,0,0,1-7.251-7.251v-43.5a7.257,7.257,0,0,1,7.251-7.251h39.875a3.4,3.4,0,0,1,3.624,3.624v37.722H393.322a5.126,5.126,0,0,0-3.624,8.666,5.117,5.117,0,0,0,3.624,1.472h37.327Zm-31.548-20.9a2.852,2.852,0,0,0,1.079,2.375l.737,1.133a3.554,3.554,0,0,0,5.1,0l18.863-19.255a3.487,3.487,0,0,0,0-5.039l-.737-.737a3.554,3.554,0,0,0-5.1,0l-18.863,18.862a3.737,3.737,0,0,0-1.079,2.661Zm0,0" transform="translate(-379.9 -560.58)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

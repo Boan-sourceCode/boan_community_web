@@ -1,0 +1,306 @@
+#app {
+
+  .main-container {
+    min-height: 100%;
+    transition: margin-left .28s;
+    padding: 30px 30px 30px 0;
+    background-color: #ddd;
+    margin-left: $base-sidebar-width;
+    position: relative;
+		overflow: hidden;
+  }
+  .leftIcon {
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    left: 128px;
+    top: 127px;
+    z-index: 1001;
+    background: #fff;
+    transform: rotate(135deg);
+  }
+
+  .main-box {
+   width: 100%;
+   height: 100%;
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 2px 0 6px rgba(0,21,41,.35);;
+  }
+
+
+  .sidebarHide {
+    margin-left: 0!important;
+  }
+
+  .sidebar-container {
+    -webkit-transition: width .28s;
+    transition: width 0.28s;
+    width: $base-sidebar-width !important;
+    background-color: $base-menu-background;
+    height: 100%;
+    position: fixed;
+    font-size: 0px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1001;
+    overflow: hidden;
+    // -webkit-box-shadow: 2px 0 6px rgba(0,21,41,.35);
+    // box-shadow: 2px 0 6px rgba(0,21,41,.35);
+
+    // reset element-ui css
+    .horizontal-collapse-transition {
+      transition: 0s width ease-in-out, 0s padding-left ease-in-out, 0s padding-right ease-in-out;
+    }
+
+    .scrollbar-wrapper {
+      overflow-x: hidden !important;
+    }
+
+    .el-scrollbar__bar.is-vertical {
+      right: 0px;
+    }
+
+    .el-scrollbar {
+      height: 100%;
+    }
+
+    &.has-logo {
+      .el-scrollbar {
+        height: calc(100% - 50px);
+      }
+    }
+
+    .is-horizontal {
+      display: none;
+    }
+
+    a {
+      display: inline-block;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .svg-icon {
+      // margin-right: 16px;
+      color: #fff;
+      font-size: 24px;
+    }
+
+    .font{
+      height: 0.75rem;
+      padding: 0;
+      line-height: 0.75rem;
+      margin: 0;
+      color: #fff;
+      font-size: 0.75rem;
+    }
+
+    .el-menu {
+      border: none;
+      height: 100%;
+      width: 100% !important;
+    }
+
+    .el-menu-item, .el-submenu__title {
+      overflow: hidden !important;
+      text-overflow: ellipsis !important;
+      white-space: nowrap !important;
+      width: 90px;
+      height: 90px;
+      text-align: center;
+      background: #1f79f3 !important;
+      border-radius: 20px;
+      margin: 20px auto 0 ;
+      padding: 0 !important;
+      color: #fff;
+    }
+
+    .el-menu div:nth-child(29) li{
+      background: #1f79f3 !important;
+    }
+    .el-menu div:nth-child(30) li{
+      background: #f27463 !important;
+    }
+    .el-menu div:nth-child(31) li{
+      background: #3bc2b4 !important;
+    }
+    .el-menu div:nth-child(32) li{
+      background: #5c6bc0 !important;
+    }
+    .el-menu div:nth-child(33) li{
+      background: #a0887e !important;
+    }
+    .el-menu div:nth-child(34) li{
+      background: #ff933e !important;
+    }
+    .el-menu div:nth-child(36) li{
+      background: #FFBE00 !important;
+    }
+    // menu hover
+    .submenu-title-noDropdown,
+    .el-ubmenu__titles {
+      &:hover {
+        box-shadow: 2px 0 6px rgba(0,21,41,.35);
+        // background-color: rgba(0, 0, 0, 0.06) !important;
+      }
+    }
+
+    & .theme-dark .is-active > .el-submenu__title {
+      color: $base-menu-color-active !important;
+    }
+
+    & .nest-menu .el-submenu>.el-submenu__title,
+    & .el-submenu .el-menu-item {
+      min-width: 80px !important;
+
+      &:hover {
+        box-shadow: 2px 0 6px rgba(0,21,41,.35);
+        // background-color: rgba(0, 0, 0, 0.06) !important;
+      }
+    }
+
+    & .theme-dark .nest-menu .el-submenu>.el-submenu__title,
+    & .theme-dark .el-submenu .el-menu-item {
+      background-color: #1F79F3 !important;
+
+      &:hover {
+        box-shadow: 2px 0 6px rgba(0,21,41,.35);
+        // background-color: $base-sub-menu-hover !important;
+      }
+    }
+  }
+
+  .hideSidebar {
+    .sidebar-container {
+      width: 54px !important;
+    }
+
+    .main-container {
+      margin-left: 54px;
+    }
+
+    .submenu-title-noDropdown {
+      padding: 0 !important;
+      position: relative;
+
+      .el-tooltip {
+        padding: 0 !important;
+
+        .svg-icon {
+          margin-left: 20px;
+        }
+      }
+    }
+
+    .el-submenu {
+      overflow: hidden;
+
+      &>.el-submenu__title {
+        padding: 0 !important;
+
+        .svg-icon {
+          margin-left: 20px;
+        }
+
+      }
+    }
+
+    .el-menu--collapse {
+      .el-submenu {
+        &>.el-submenu__title {
+          &>span {
+            height: 0;
+            width: 0;
+            overflow: hidden;
+            visibility: hidden;
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+
+  .el-menu--collapse .el-menu .el-submenu {
+    min-width: $base-sidebar-width !important;
+  }
+
+  // mobile responsive
+  //.mobile {
+  //  .main-container {
+  //    margin-left: 0px;
+  //  }
+  //
+  //  .sidebar-container {
+  //    transition: transform .28s;
+  //    width: $base-sidebar-width !important;
+  //  }
+  //
+  //  &.hideSidebar {
+  //    .sidebar-container {
+  //      pointer-events: none;
+  //      transition-duration: 0.3s;
+  //      transform: translate3d(-$base-sidebar-width, 0, 0);
+  //    }
+  //  }
+  //}
+
+  .withoutAnimation {
+
+    .main-container,
+    .sidebar-container {
+      transition: none;
+    }
+  }
+}
+
+// when menu collapsed
+.el-menu--vertical {
+  &>.el-menu {
+    .svg-icon {
+      margin-right: 16px;
+    }
+  }
+
+  .nest-menu .el-submenu>.el-submenu__title,
+  .el-menu-item {
+    &:hover {
+      // you can use $subMenuHover
+      background-color: rgba(0, 0, 0, 0.06) !important;
+    }
+  }
+
+  // the scroll bar appears when the subMenu is too long
+  >.el-menu--popup {
+    max-height: 100vh;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar-track-piece {
+      background: #d3dce6;
+    }
+
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: #99a9bf;
+      border-radius: 20px;
+    }
+  }
+}
+@media screen and (max-width: 1400px) {
+  .font{
+    font-size: 0.45rem !important;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .font{
+    display: none;
+  }
+  .svg-icon {
+    margin-top: 2rem;
+  }
+}
+

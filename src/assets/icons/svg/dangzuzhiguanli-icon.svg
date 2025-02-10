@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="58" viewBox="0 0 58 58">
+  <defs>
+    <clipPath id="clip-dangzuzhiguanli-icon">
+      <rect width="58" height="58"/>
+    </clipPath>
+  </defs>
+  <g id="dangzuzhiguanli-icon" clip-path="url(#clip-dangzuzhiguanli-icon)">
+    <g id="组_4873" data-name="组 4873" transform="translate(-1269.069 -296.069)">
+      <rect id="矩形_1341" data-name="矩形 1341" width="58" height="58" transform="translate(1269.069 296.069)" fill="#ffb7b7" opacity="0"/>
+      <g id="组_4838" data-name="组 4838" transform="translate(860.693 -232.975)">
+        <path id="路径_1841" data-name="路径 1841" d="M427.227,549.345a1.45,1.45,0,0,1-1.45-1.45V533.4a1.446,1.446,0,0,1,1.45-1.45h20.3a1.446,1.446,0,0,1,1.45,1.45v14.5a1.45,1.45,0,0,1-1.45,1.45h-7.249v5.8h17.4v11.6h7.249a1.446,1.446,0,0,1,1.45,1.45v14.5a1.446,1.446,0,0,1-1.45,1.45h-20.3a1.446,1.446,0,0,1-1.45-1.45V568.2a1.446,1.446,0,0,1,1.45-1.45h7.249v-5.8h-29v5.8h7.251a1.446,1.446,0,0,1,1.448,1.45v14.5a1.446,1.446,0,0,1-1.448,1.45h-20.3a1.45,1.45,0,0,1-1.45-1.45V568.2a1.45,1.45,0,0,1,1.45-1.45h7.249v-11.6h17.4v-5.8Zm0,0" transform="translate(0 0)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
